@@ -12,6 +12,7 @@ const MultiStepForm = () => {
     lastName: "",
     userName: "",
     phoneNumber: "",
+    mail: "",
   });
   const Step = [StepOne, StepTwo, StepThree, Formfinish][currentStep];
   const handleNextStep = () => {
@@ -26,11 +27,12 @@ const MultiStepForm = () => {
   };
   return (
     <div>
-      <Step handleBackStep={handleBackStep} handleNextStep={handleNextStep} />
+      <Step 
+        handleBackStep={handleBackStep} 
+        handleNextStep={handleNextStep} 
+      />
     </div>
   );
 };
-
-
 
 export default MultiStepForm;
