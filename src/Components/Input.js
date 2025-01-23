@@ -1,16 +1,17 @@
 import React from "react";
 
-const Input = ({ placeholder,value,onChange,name}) => {
+const Input = ({ placeholder,value,onChange,type,accept}) => {
   return (
     <input
-      type="text"
+      type={type}
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      className="border p-2 rounded-2xl"
-      name={name}
+      accept={accept}
+      className="border p-2 rounded-xl"
     />
   );
 };
 
 export default Input;
+
