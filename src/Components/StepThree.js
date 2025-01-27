@@ -38,7 +38,9 @@ const StepThree = (props) => {
       transition={{ duration: 0.5 }}
       className="bg-white w-[480px] h-[655px] flex flex-col rounded-2xl p-8 justify-between"
     >
+     
       <div className="flex flex-col justify-around h-[350px]">
+
         <Header/>
 
         <label className="block text-sm font-semibold leading-4 text-[#334155]">

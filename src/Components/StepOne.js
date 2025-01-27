@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Input from "@/Components/Input";
 import { motion } from "framer-motion";
 import Header from "@/Components/header"
+
 const StepOne = (props) => {
   const { handleNextStep, setForm, setError, form, error } = props;
 
@@ -78,6 +79,7 @@ const StepOne = (props) => {
       transition={{ duration: 0.5 }}
       className="bg-white w-[480px] h-[655px] flex flex-col rounded-2xl p-8 justify-between"
     >
+    
       <div className="flex flex-col justify-around h-[350px]">
         <Header/>
 

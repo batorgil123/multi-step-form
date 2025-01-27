@@ -5,6 +5,7 @@ import StepTwo from "./StepTwo";
 import StepThree from "./StepThree";
 import Formfinish from "./Formfinish";
 import { motion } from "motion/react";
+import SvgIcon from "@/app/Utils/Svg"
 const MultiStepForm = () => {
   const [currentStep, setCurrentStep] = useState(0);
 
@@ -52,7 +53,9 @@ const MultiStepForm = () => {
 
   return (
     <div className="bg-gray-100 w-screen h-screen flex items-center justify-center">
+     
       <Step
+      
         handleBackStep={handleBackStep}
         handleNextStep={handleNextStep}
         setForm={setForm}
