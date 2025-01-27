@@ -18,7 +18,12 @@ const Formfinish = (props) => {
       <p className="text-[18px] whitespace-nowrap text-[#8E8E8E]">
         We have received your submission. Thank you!
       </p>
-
+      <button
+        className="mt-[30px] w-[128px] h-[44px] border rounded-xl flex items-center justify-center  hover:bg-gray-200 hover:shadow-lg transform transition-all duration-[0.3s]"
+        onClick={handleBackStep}
+      >
+        prev
+      </button>
     </motion.div>
   );
 };
