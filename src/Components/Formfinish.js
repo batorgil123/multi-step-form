@@ -17,8 +17,8 @@ const Formfinish = (props) => {
       </div>
       <p className="text-[18px] whitespace-nowrap text-[#8E8E8E]">
         We have received your submission. Thank you!
-      </p>
-     
+      </p>   
+     {/* zz */}
     </motion.div>
   );
 };
